@@ -20,7 +20,7 @@ Their are 2 files needed:
 The output file is the zip_code_wages.csv
 The output will come in the form zipcode, city of the zipcode, state of the zipcode, county of the zipcode, jurisdiction of the zipcode(wether the minimum wage was grabed from the city level, county level or state level), and finally the minimum wage of the zipcode
 
-This promgram was created with python 3 using the imports: requests and BeautifulSoup
+This promgram was created with python 3 using the imports: requests and BeautifulSoup as well I used pyinstaller to create the executionable
 
 This is a warning do not change the formating of the 2 files needed, the output file will not be as expected if you do. 
 As well, this program will only grap the minimum wages from the dol web site if the formating of the website does not have any dramatic changes - https://www.dol.gov/agencies/whd/minimum-wage/stat
